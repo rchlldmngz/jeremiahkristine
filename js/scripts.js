@@ -97,7 +97,7 @@ $(document).ready(function () {
                     "padding": "10px 0px"
                 });
                 $('header .member-actions').css({
-                    "top": "20px",
+                    "top": "10px",
                 });
                 $('header .navicon').css({
                     "top": "30px",
@@ -109,7 +109,7 @@ $(document).ready(function () {
                     "padding": "10px 0px"
                 });
                 $('header .member-actions').css({
-                    "top": "20px",
+                    "top": "10px",
                 });
                 $('header .navicon').css({
                     "top": "30px",
@@ -185,17 +185,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Chino and Jona's Wedding",
+            title: "Jeremiah and Kristine's Wedding",
 
             // Event start date
-            start: new Date('Dec 06, 2021 15:00'),
+            start: new Date('Sep 03, 2022 15:30'),
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Dec 06, 2022 21:00'),
+            end: new Date('Sep 03, 2022 21:00'),
 
             // Event Address
-            address: 'Bella Rosa Gardens, Silang, Cavite',
+            address: 'Chapel of San Pedro Calungsod, Cebu City, Cebu',
 
             // Event Description
             description: "We can't wait to see you on our big day."
@@ -259,7 +259,7 @@ $(document).ready(function () {
             }
         }
 
-        $.post('https://script.google.com/macros/s/AKfycbweXBBtMptgNdceL4EX_uhMqCRdYwtNzdmXmBYbjFZ94pmw_H9WjOHueAXuLypY38rpmA/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbxlSvIYQInxqlzFW3uAMjJAs9njtRiKCX69jlvZZpW0dEBbs0Ti7MO9bnLmXPjbHEFWBA/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {

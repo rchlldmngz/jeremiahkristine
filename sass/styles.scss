@@ -6,21 +6,24 @@ p {
     line-height: 29px;
     color: black;
     padding-bottom: 12px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     font-size: 60px;
-    color: #63748B;
+    color: #617466;
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 300;
-    color: black
+    color: #617466;
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    padding-top: 40px;
 }
 
 h3 {
-    color: #63748B;
+    color: #617466;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -34,18 +37,18 @@ h4 {
 
 h5 {
     font-size: 18px;
-    color: #63748B;
+    color: #617466;
     font-weight: bold;
     text-transform: uppercase;
     font-weight: bold
 }
 
 h6 {
-    color: #63748B;
-    font-size: 50px;
+    color: #617466;
+    font-size: 35px;
     letter-spacing: 0px;
     line-height: 29px;
-    font-family: 'olivia dhorgent', sans-serif;
+    font-family: 'aerotis', sans-serif;
     padding-top: 40px;
                                                 
 }
@@ -85,20 +88,20 @@ h6 {
 /*submit*/
 .btn-fill {
     color: #fff;
-    border: solid 2px #63748B;
+    border: solid 2px #304035;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #63748B
+    background-color: #304035
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
     color: black;
-    background-color: #8ab7f7;
-    border-color: #8ab7f7
+    background-color: #617466;
+    border-color: #617466
 }
 
 .btn-small {
@@ -129,7 +132,7 @@ h6 {
 }
 /*floating arrow bottom*/
 a {
-    color: #63748B;
+    color: #304035;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -149,7 +152,7 @@ body {
     font-weight: 300;
     color: black;
     -webkit-text-size-adjust: 100%;
-    background: #D7EAE8;
+    background: #FFFF;
 
 }
 
@@ -328,7 +331,7 @@ section .header {
     top: 0;
     right: 15px;
     z-index: 999999;
-    padding: 15px 0px 0px 0;
+    padding: 4px 0px 0px 0;
     cursor: pointer
 }
 
@@ -415,7 +418,7 @@ section .header {
 }
 /*floating Arrow top*/
 .hero .down-arrow a {
-    color: #63748B
+    color: #304035
 }
 /*not in use*/
 .hero h1 {
@@ -449,7 +452,7 @@ section .header {
 .fixed {
     padding: 0px 0px;
     position: fixed;
-    background-color: #63748bf1;
+    background-color: #304035f7;
     z-index: 999;
     width: 100%
 }
@@ -479,7 +482,7 @@ header .logo {
 }
 
 header .logo img {
-    height: 75px;
+    height: 50px;
 }
 
 header ul.primary-nav {
@@ -524,8 +527,8 @@ header .header-nav {
 
 header .member-actions {
     position: absolute;
-    right: 0;
-    top: 20px;
+    right: 5px;
+    top: 10px;
     transition: all 300ms ease-in-out
 }
 
@@ -830,14 +833,15 @@ header .member-actions {
     width: 200%;
 }
 
-#events img {
+#events img,
+#account img {
     width: 100%;
 }
 
 #wear img,
 #swatches img,
 #gift img {
-    width: 70%
+    width: 50%
 }
 
 #eng-pics img {
@@ -1009,7 +1013,7 @@ header .member-actions {
 }
 /*RSVP Icons*/
 .rsvp .rsvp-form .form-input-group i {
-    color: #63748B;
+    color: #304035;
     font-size: 14px
 }
 
@@ -1111,7 +1115,7 @@ ol {
 
 
 strong {
-      Color: #63748B
+      Color: #617466
 }
 
 iframe {
