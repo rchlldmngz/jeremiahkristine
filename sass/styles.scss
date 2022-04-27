@@ -452,7 +452,7 @@ section .header {
 .fixed {
     padding: 0px 0px;
     position: fixed;
-    background-color: #304035f7;
+    background: url("../img/gold.jpg");
     z-index: 999;
     width: 100%
 }
@@ -833,12 +833,15 @@ header .member-actions {
     width: 200%;
 }
 
+#wear img{
+    width: 75%;
+}
+
 #events img,
 #account img {
     width: 100%;
 }
-
-#wear img,
+ 
 #swatches img,
 #gift img {
     width: 50%
